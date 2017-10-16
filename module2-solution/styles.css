@@ -5,13 +5,12 @@
 		box-sizing: border-box;
 		margin: 0px;
 		padding: 0px;
-		font-family: verdana;
+		font-family: verdana, sans-serif;
 
 	}
 
-
 	body {
-		margin: 0% 0% 0% 2%;
+		margin: 1%;
 	}
 
 	/*Desktop*/
@@ -21,15 +20,16 @@
 		text-align: center;
 		margin: 50px;
 		font-size: 2em;
+		color: #050505;
 	}
 
 	.box-container1, .box-container2, .box-container3 {
-		border: 2px black solid;
-		width: 31%;
+		border: 1px black solid;
+		width: 31.3333%;
 		min-width: 170px;
 		position: relative;
+		margin: 1%;
 		float: left;
-		margin: 10px;
 		background-color: #b7b7b7;
 
 	}
@@ -40,14 +40,16 @@
 	}
 
 	#title1, #title2, #title3 {
-		border: 2px black solid;
-		position: absolute;
-		top: -2px;
-		right: -2px;
+		border: 1px black solid;
+		position: relative;
+		float: right;
+		top: -1px;
+		right: -1px;
 		width: 45%;
 		min-width: 83px;
 		background-color: #ffbcc1;
-		font-size: 1em;
+		font-size: 1em; 
+		color: #161616;
 		text-align: center;
 		overflow: hidden;
 		padding: 2px;
@@ -56,6 +58,7 @@
 
 	#title2 {
 		background-color: #ffdf77;
+		color: #383838;
 		
 	}
 
@@ -68,29 +71,21 @@
 
 /*Tablet*/
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) and (min-width: 768px) {
 
-		body {
-		margin: 0% 3% 0% 2%;
-	}
+
    
 
 	.box-container1, .box-container2 {
-		border: 2px black solid;
 		width: 48%;
 		min-width: 170px;
-		position: relative;
-		float: left;
 		margin: 1%;
-		background-color: #b7b7b7;
 
 	}
 
 	.box-container3 {
 		width: 98%;
 		min-width: 170px;
-		position: relative;
-		float: left;
 		margin: 0.8% 0% 0% 1%;
 
 	}
@@ -106,19 +101,15 @@
 
 @media screen and (max-width: 767px) {
    
-		body {
-		margin: 0% 4% 0% 3%;
-	}
+
 
 	.box-container1, .box-container2, .box-container3 {
-		width: 100%;
+		width: 98%;
 		min-width: 170px;
-		position: relative;
-		float: left;
 		margin-top: 1%;
 	}
 
-		#title2 {
+	#title2 {
 		min-width: 45%;
 	}
 		
