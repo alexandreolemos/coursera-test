@@ -1,0 +1,81 @@
+.navbar {
+	background-color: #cccccc 
+
+ }
+
+.container-fluid {
+	border: 1px solid #777!important;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+
+
+.navbar-default .navbar-toggle {
+    border-color: #777;
+}
+
+.box {
+	background-color:#cccccc ;
+	margin-top: 3%;
+
+}
+
+
+.navbar-nav {
+    margin: 0px 0px 0px 0px;
+
+ }
+
+.icon-bar {
+    background-color: #555!important;
+
+}
+
+#hamburguer {
+	background-color: #f2f2da;
+}
+
+
+.nav>li {
+   	border-top:1px solid #777;
+
+ }
+
+
+
+/*Mobile*/
+
+
+@media (max-width: 767px) {
+	.container {
+	
+	margin: 1.5% 12% 1.5% 12%;
+
+
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) {
+	.container {
+	
+	margin: 1.5% 1% 1.5% 1%;
+
+}
+
+/*Desktop*/
+
+@media (min-width: 1200px) {
+	.container {
+	
+	margin: 1.5% 1% 1.5% 1%;
+
+}
+
+
+
+
+
